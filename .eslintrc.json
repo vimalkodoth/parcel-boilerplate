@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "eslint:recommended", //turns on recommended eslint rules
+    "plugin:import/errors", // catch errors related to module imports
+    "prettier" // turns off all prettier configs provided by eslint
+  ],
+  "rules": {
+    "no-console": 1 //warn. 0 to turn off
+  },
+  "plugins": ["import"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module" // es6 style imports
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
