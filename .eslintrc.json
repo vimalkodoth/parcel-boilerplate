@@ -1,8 +1,10 @@
 {
   "extends": [
     "eslint:recommended", //turns on recommended eslint rules
+    "plugin:react/recommended",
     "plugin:import/errors", // catch errors related to module imports
-    "prettier" // turns off all prettier configs provided by eslint
+    "prettier", // turns off all prettier configs provided by eslint
+    "prettier/react"
   ],
   "rules": {
     "no-console": 1 //warn. 0 to turn off
@@ -10,11 +12,19 @@
   "plugins": ["import"],
   "parserOptions": {
     "ecmaVersion": 2018,
-    "sourceType": "module" // es6 style imports
+    "sourceType": "module", // es6 style imports
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "env": {
     "es6": true,
     "browser": true,
     "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
