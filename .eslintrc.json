@@ -7,6 +7,7 @@
     "prettier", // turns off all prettier configs provided by eslint
     "prettier/react"
   ],
+  "parser": "babel-eslint",
   "rules": {
     "no-console": 1, //warn. 0 to turn off,
     "react/proptypes": 0
