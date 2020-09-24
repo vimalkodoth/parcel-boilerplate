@@ -2,12 +2,12 @@
 
 React-Parcel starter boilerplate is to scaffold a javascript based react project with frontend infrastructure configured.
 
-Code Quality - Prettier
-ESLint - Recommended, Prettier/React
-Parcel - Bundler
-Babel - Transpiler
-Tests - Jest
-Docs - jsdoc/better-docs
+ - Code Quality : Prettier
+ - ESLint : Recommended, Prettier/React
+ - Parcel : Bundler
+ - Babel : Transpiler
+ - Tests : Jest
+ - Docs : jsdoc/better-docs
 
 ## Quick start
 
