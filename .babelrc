@@ -1,4 +1,3 @@
 {
-  "presets": ["@babel/preset-react", "@babel/preset-env"], //a preset is bunch of plugins for transformation
-  "plugin": ["@babel/plugin-proposal-class-properties"] // a single plugin for transformation
+  "presets": ["@babel/preset-react", "@babel/preset-env"] //a preset is bunch of plugins for transformation
 }
